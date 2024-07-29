@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container{
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(102, 103, 102);
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+#header1{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+\input{
+    width: 220px;
+    height: 30px;
+    background-color: green;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    position: relative;
+    top: 25px;
+}
+input::placeholder{
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+span{
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+#icons{
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 25px;
+}
+nav{
+    width: 850px;
+    height: 50px;
+    display: flex;
+    margin-left:28%;
+    line-height: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+    margin: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size:75px;
+    color: green;
+    margin-left: 60px;
+    line-height: 500px;
+    display: inline;
+    
+}
+
+h2{
+    font-size: 45px;
+    position: relative;
+    bottom: 200px;
+    margin-left:60px;
+    color: green;
+    
+}
+button{
+    width: 200px;
+    height: 80px;
+    border: none;
+    background-color: green;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    font-size: 25px;
+    color: white;
+    margin-left: 60px;
+    
+}
+
+hr{
+    width: 400px;
+    color: green;
+    height: 5px;
+    background-color: green;
+    position: relative;
+    bottom: 200px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
